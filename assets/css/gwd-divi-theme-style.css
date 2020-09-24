@@ -30,6 +30,17 @@
 		margin-left: 0 !important;
 		margin-right: 10% !important;
 	}
+	
+	.tablet__col_2.tablet__col_2__1_2.et_pb_row > .et_pb_column:first-child,
+	.tablet__col_2.tablet__col_2__1_2.et_pb_section > .et_pb_row > .et_pb_column:first-child{
+		width: 33.333% !important;
+	}
+	
+	.tablet__col_2.tablet__col_2__1_2.et_pb_row > .et_pb_column:last-child,
+	.tablet__col_2.tablet__col_2__1_2.et_pb_section > .et_pb_row > .et_pb_column:last-child{
+		width: 66.666% !important;
+	}
+	
     .tablet__col_2.et_pb_row > .et_pb_column:nth-child(2n),
 	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column:nth-child(2n){
         margin-right: 0 !important;
