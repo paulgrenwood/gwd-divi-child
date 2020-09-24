@@ -22,6 +22,6 @@ function gwd_divi_theme_scripts(){
 	// Child Theme Assets
 	wp_dequeue_style( 'divi-style-css' );
 	//wp_enqueue_script( 'gwd-divi-theme-js', get_stylesheet_directory_uri() . '/assets/js/gwd-divi-theme-footer.js', array('jquery', 'lightGallery-js'), '0.9.08', true );
-	wp_enqueue_style( 'gwd-divi-theme-css', get_stylesheet_directory_uri() . '/assets/css/gwd-divi-theme-style.css', false, '0.9.0' );
+	wp_enqueue_style( 'gwd-divi-theme-css', get_stylesheet_directory_uri() . '/assets/css/gwd-divi-theme-style.css', false, '0.9.3' );
 }
 add_action('wp_enqueue_scripts', 'gwd_divi_theme_scripts');
