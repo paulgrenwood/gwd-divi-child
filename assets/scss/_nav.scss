@@ -215,7 +215,7 @@
     position: absolute;
     width:25px;
     height:2px;
-    background-color:#fff;
+    background-color: currentcolor;
 	top: 50%;
     left: 50%;
 	transform-origin: left top;
@@ -224,7 +224,7 @@
 
 #primary_navbar:not(.homepage_navbar) .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before,
 #primary_navbar:not(.homepage_navbar) .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::after{
-    background-color: currentcolor;
+    background-color: #fff;
 }
 
 #primary_navbar .et_mobile_nav_menu .mobile_nav .mobile_menu_bar::before{
