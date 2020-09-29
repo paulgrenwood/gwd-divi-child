@@ -49,6 +49,40 @@
 	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column.tablet_col__order_4{
         margin-right: 0 !important;
     }
+    
+    .tablet__col_2.et_pb_row > .et_pb_column:nth-child(n+3):not(.tablet_col__order_1):not(.tablet_col__order_2),
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column:nth-child(n+3):not(.tablet_col__order_1):not(.tablet_col__order_2),
+	.tablet__col_2.et_pb_row > .et_pb_column.tablet_col__order_3,
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column.tablet_col__order_3,
+	.tablet__col_2.et_pb_row > .et_pb_column.tablet_col__order_4,
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column.tablet_col__order_4{
+		margin-bottom: 0 !important;
+	}
+    
+    .tablet__col_2.et_pb_row > .et_pb_column:nth-child(-n+2):not(.tablet_col__order_3):not(.tablet_col__order_4),
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column:nth-child(-n+2):not(.tablet_col__order_3):not(.tablet_col__order_4),
+	.tablet__col_2.et_pb_row > .et_pb_column.tablet_col__order_1,
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column.tablet_col__order_1,
+	.tablet__col_2.et_pb_row > .et_pb_column.tablet_col__order_2,
+	.tablet__col_2.et_pb_section > .et_pb_row > .et_pb_column.tablet_col__order_2{
+		margin-bottom: 30px !important;	
+	}
+    
+    .tablet__col_2 .tablet_col__order_1{
+	    order: 1;
+    }
+    
+    .tablet__col_2 .tablet_col__order_2{
+	    order: 2;
+    }
+    
+    .tablet__col_2 .tablet_col__order_3{
+	    order: 3;
+    }
+    
+    .tablet__col_2 .tablet_col__order_4{
+	    order: 4;
+    }
 
     .tablet__col_2.no_gutter.et_pb_row > .et_pb_column,
 	.tablet__col_2.no_gutter.et_pb_section > .et_pb_row > .et_pb_column{
