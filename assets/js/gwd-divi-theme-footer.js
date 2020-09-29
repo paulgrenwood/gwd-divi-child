@@ -1,32 +1,39 @@
+// Add Loaded Class to Body
+document.body.classList.add("gwd_loaded");
+
 jQuery(document).ready(function($) { 
-	console.log('doc ready | 0.9.08');
-	
-  
-  	// LightGallery
-  	console.log( $('.gwd_child__image_lightbox').length );
-  	/*$('.gwd_child__image_lightbox').lightGallery({
-      	selector: '.et_pb_lightbox_image',
-    });*/
-    /*$('.gwd_lightGallery_img').lightGallery({
-    });*/
+	// Sticky Navbar
+    var navbarHeight = $('#primary_navbar').height(),
+          breadcrumbPad = navbarHeight + 10;
+    document.documentElement.style.setProperty('--navbarHeight', navbarHeight + 'px');
+    document.documentElement.style.setProperty('--breadcrumbPad', breadcrumbPad + 'px');
     
-    
-    var $lg = $('.gwd_lightGallery_img');
- 
-	$lg.lightGallery();
-	 
-	// Perform any action just before opening the gallery
-	$lg.on('onBeforeOpen.lg',function(event){
-	    alert('onBeforeOpen');
-	});
-	 
-	// custom event with extra parameters 
-	// index - index of the slide
-	// fromTouch - true if slide function called via touch event or mouse drag
-	// fromThumb - true if slide function called via thumbnail click
-	$lg.on('onBeforeSlide.lg',function(event, index, fromTouch, fromThumb){
-	    console.log(index, fromTouch, fromThumb);
-	});
-    
-    console.log('after lG call');
+    var $body = $('body');
+  	$(window).scroll(function(){
+
+      	if( $(window).scrollTop() > 100 ){
+          $body.addClass('gwd_window_scrolled');
+        }else{
+          $body.removeClass('gwd_window_scrolled');
+        }
+      
+      	var navHeight = $('#primary_navbar').height(),
+            breadPad = navHeight + 10;
+      
+      	document.documentElement.style.setProperty('--navbarHeight', navHeight + 'px');
+    	document.documentElement.style.setProperty('--breadcrumbPad', breadPad + 'px');
+    });
 });
+
+
+/*
+* Shuffle jQuery array of elements - see Fisher-Yates algorithm
+*/
+jQuery.fn.shuffle = function () {
+    var j;
+    for (var i = 0; i < this.length; i++) {
+        j = Math.floor(Math.random() * this.length);
+        jQuery(this[i]).before(jQuery(this[j]));
+    }
+    return this;
+};
