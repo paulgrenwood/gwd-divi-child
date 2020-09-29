@@ -24,7 +24,7 @@
 #### _2 Columns in 1/3 + 2/3 Format_
 .tablet__col_2.tablet__col_2__1_2
 
-#### _2 Columns - No Gutter
+#### _2 Columns - No Gutter_
 .tablet__col_2.no_gutter
 
 #### _3 Column (Apply to Row or Section)_
@@ -51,7 +51,7 @@
 #### _3 Column (Apply to Row or Section)_
 .mobile__col_3
 
-##### _Reverse Mobile Column Order_
+#### _Reverse Mobile Column Order_
 .mobile__col_rev_order
 
 
