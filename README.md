@@ -24,6 +24,12 @@
 #### _2 Columns in 1/3 + 2/3 Format_
 .tablet__col_2.tablet__col_2__1_2
 
+#### _Individual Column Ordering (Apply to Column)_
+.tablet_col__order_1
+.tablet_col__order_2
+.tablet_col__order_3
+.tablet_col__order_4
+
 #### _2 Columns - No Gutter_
 .tablet__col_2.no_gutter
 
