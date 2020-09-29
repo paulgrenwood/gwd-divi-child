@@ -18,56 +18,56 @@
 
 ### Tablet Columns
 
-##### 2 Column (Apply to Row or Section)
+##### _2 Column (Apply to Row or Section)_
 * .tablet__col_2
 
-##### 2 Columns in 1/3 + 2/3 Format
+##### _2 Columns in 1/3 + 2/3 Format_
 * .tablet__col_2.tablet__col_2__1_2
 
-##### 2 Columns - No Gutter
+##### _2 Columns - No Gutter
 * .tablet__col_2.no_gutter
 
-##### 3 Column (Apply to Row or Section)
+##### _3 Column (Apply to Row or Section)_
 * .tablet__col_3
 
-##### 3 Columns - No Gutter
+##### _3 Columns - No Gutter_
 * .tablet__col_3.no_gutter
 
-##### 3 Column Equal Width (Apply to Row)
+##### _3 Column Equal Width (Apply to Row)_
 * .et_pb_row__equal_3_column_dividers.tablet__col_3
 
-##### Reverse Tablet Column Order
+##### _Reverse Tablet Column Order_
 * .tablet__col_rev_order
 
 
 ### Mobile Columns
 
-#### 2 Column (Apply to Row or Section)
+#### _2 Column (Apply to Row or Section)_
 * .mobile__col_2
 
-#### 2 Columns - No Gutter
+#### _2 Columns - No Gutter_
 * .mobile__col_2.no_gutter
 
-#### 3 Column (Apply to Row or Section)
+#### _3 Column (Apply to Row or Section)_
 * .mobile__col_3
 
-##### Reverse Mobile Column Order
+##### _Reverse Mobile Column Order_
 * .mobile__col_rev_order
 
 
 ### Desktop Columns
 
-##### Equal Width Desktop Columns
+##### _Equal Width Desktop Columns_
 * .et_pb_row__equal_3_column_dividers
 
 
 ### Image Aspect Ratios (Apply to Image or Blurb Module)
 
-##### 16x9 Aspect Ratio
+##### _16x9 Aspect Ratio_
 * .et_pb_image.aspect-ratio-16-9
 
-##### 4x3 Aspect Ratio
+##### _4x3 Aspect Ratio_
 * .et_pb_image.aspect-ratio-4-3
 
-##### 1x1 Aspect Ratio
+##### _1x1 Aspect Ratio_
 * .et_pb_image.aspect-ratio-1-1
