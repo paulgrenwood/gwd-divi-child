@@ -249,6 +249,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
+	height: 100vh;
     padding-top: 120px;
 	overflow-y: scroll;
 	border: none;
@@ -277,4 +278,5 @@
 
 body.admin-bar #primary_navbar .et_mobile_nav_menu .mobile_nav .et_mobile_menu{
     top: 32px;
+    height: calc(100vh - 32px);
 }
