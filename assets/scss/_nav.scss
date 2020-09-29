@@ -224,7 +224,7 @@
 
 #primary_navbar:not(.homepage_navbar) .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before,
 #primary_navbar:not(.homepage_navbar) .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::after{
-    background-color: #fff;
+    background-color: currentcolor;
 }
 
 #primary_navbar .et_mobile_nav_menu .mobile_nav .mobile_menu_bar::before{
@@ -253,7 +253,6 @@
     padding-top: 120px;
 	overflow-y: scroll;
 	border: none;
-    background-color: rgba(0,0,0,0.8);
 
     li.current-menu-item > a,
     li > a:hover{
